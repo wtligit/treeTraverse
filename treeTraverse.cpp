@@ -88,5 +88,7 @@ int main() {
 	cout << endl;
 	s.postOrder(s_arr[0]);
 	cout << endl;
+    	for (int i = 0; i < 6; i++)
+        	delete s_arr[i];
 	return 0;
 }
